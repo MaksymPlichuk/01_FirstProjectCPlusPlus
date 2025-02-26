@@ -58,4 +58,14 @@ void main()
 	cout << "TV diagonal in inches = " << diag << endl;
 	cout << "TV diagonal in cm = " << diag * cm << endl;
 
+	float k;
+	cout << "Enter Hamster meal weight(grams) = ";
+	cin >> k;
+	cout << endl;
+	cout << " Hamster meal weight(kilograms) for 30 days = ";
+	cout << k / 1000 * 30;
+
+
+
+
 }
